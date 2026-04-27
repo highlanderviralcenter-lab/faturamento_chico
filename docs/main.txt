@@ -1,0 +1,16 @@
+# main.py
+
+## Descrição
+main.py
+=======
+Ponto de entrada único da ferramenta.
+
+Uso via interface gráfica:
+    python main.py
+
+Uso via linha de comando (sem interface):
+    python main.py --cli batidas.xlsx Faturamento.xlsx [saida.xlsx]
+
+## Símbolos
+- cli
+- gui

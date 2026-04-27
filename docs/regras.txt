@@ -1,0 +1,18 @@
+# regras.py
+
+## Descrição
+src/regras.py
+=============
+Regras de negócio puras.
+Sem I/O, sem Excel, sem interface — só lógica.
+
+## Símbolos
+- ParamMes
+- Funcionario
+- ResultadoFuncionario
+- validar_params_mes
+- calcular_max_admissao_parcial
+- calcular_disponibilidade
+- validar_resultado
+- total_dias
+- ok

@@ -1,0 +1,10 @@
+# processador.py
+
+## Descrição
+src/processador.py
+==================
+Orquestra: lê → calcula → valida → grava.
+Não sabe nada de Excel internamente — delega para leitor/escritor.
+
+## Símbolos
+- processar

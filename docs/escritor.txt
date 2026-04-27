@@ -1,0 +1,13 @@
+# escritor.py
+
+## Descrição
+src/escritor.py
+===============
+Toda escrita em Excel. Zero lógica de negócio aqui.
+
+## Símbolos
+- _dt
+- gravar_resultado_faturamento
+- preencher_aba_indisponibilidade
+- _agrupar_periodos
+- _montar_periodo

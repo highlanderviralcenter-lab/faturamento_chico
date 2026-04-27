@@ -1,0 +1,14 @@
+# Estrutura do projeto
+
+faturamento_app/
+├── data/input/          ← batidas.xlsx + Faturamento_posto_*.xlsx
+├── data/output/         ← histórico de arquivos processados
+├── docs/                ← documentação de cada módulo
+├── src/
+│   ├── core/regras.py   ← regras PAR/ÍMPAR, validações C1/C2
+│   ├── io/leitor.py     ← leitura de Excel
+│   ├── services/
+│   │   ├── processador.py  ← orquestração
+│   │   └── escritor.py     ← gravação no Excel
+│   └── ui/interface.py  ← interface Tkinter
+└── main.py              ← ponto de entrada

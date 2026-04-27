@@ -1,0 +1,14 @@
+# leitor.py
+
+## Descrição
+src/leitor.py
+=============
+Toda leitura de Excel. Zero lógica de negócio aqui.
+
+## Símbolos
+- ler_batidas
+- ler_params_mes
+- ler_admissoes
+- ler_funcionarios_faturamento
+- extrair_ausencias
+- validar_inputs

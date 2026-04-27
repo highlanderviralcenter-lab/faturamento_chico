@@ -1,0 +1,25 @@
+# interface.py
+
+## Descrição
+interface.py
+============
+Interface gráfica Tkinter.
+Coloca os arquivos em data/input/ e clica PROCESSAR.
+
+## Símbolos
+- App
+- iniciar
+- __init__
+- _build
+- _validar
+- _processar
+- _abrir_resultado
+- _log
+- _log_clear
+- _log_widget
+- _log
+- _log_clear
+- _build
+- _run
+- _w
+- _w
