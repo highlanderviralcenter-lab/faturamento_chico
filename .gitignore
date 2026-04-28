@@ -2,4 +2,8 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
-*.zip
+data/input/*.xlsx
+data/input/.~lock*
+data/output/
+.~lock*
+faturamento_chico
