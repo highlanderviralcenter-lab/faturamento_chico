@@ -1,0 +1,34 @@
+name: build exe
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: instala python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: instala dependencias
+        run: pip install openpyxl pandas pyinstaller
+
+      - name: copia script
+        run: copy src\faturamento_chico.py faturamento_chico.py
+        shell: cmd
+
+      - name: compila exe
+        run: pyinstaller --onefile --console --name "faturamento_chico" faturamento_chico.py
+
+      - name: publica artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: faturamento_chico_exe
+          path: dist\faturamento_chico.exe
